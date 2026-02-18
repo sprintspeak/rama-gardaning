@@ -40,6 +40,18 @@ export default function Home() {
               Services
             </a>
             <a
+              href="#testimonials"
+              className="text-[#E6D5B8] hover:text-white transition-colors duration-300"
+            >
+              Testimonials
+            </a>
+            <a
+              href="#faq"
+              className="text-[#E6D5B8] hover:text-white transition-colors duration-300"
+            >
+              FAQ
+            </a>
+            <a
               href="#contact"
               className="text-[#E6D5B8] hover:text-white transition-colors duration-300"
             >
@@ -59,7 +71,7 @@ export default function Home() {
         <section className="relative min-h-screen flex items-center justify-center text-[#E6D5B8]">
           <div className="absolute inset-0">
             <Image
-              src="/images/garden-hero.webp"
+              src="https://picsum.photos/1600/900?random=1"
               alt="Well maintained garden"
               fill
               priority
@@ -109,13 +121,13 @@ export default function Home() {
             </div>
             <div className="grid md:grid-cols-3 gap-6 mb-12">
               <div className="relative h-56 rounded-2xl overflow-hidden shadow-lg">
-                <Image src="/images/garden-formal.webp" alt="Formal garden design" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover" />
+                <Image src="https://picsum.photos/800/600?random=2" alt="Formal garden design" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover" />
               </div>
               <div className="relative h-56 rounded-2xl overflow-hidden shadow-lg">
-                <Image src="/images/garden-hedges.webp" alt="Manicured hedges and lawn" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover" />
+                <Image src="https://picsum.photos/800/600?random=3" alt="Manicured hedges and lawn" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover" />
               </div>
               <div className="relative h-56 rounded-2xl overflow-hidden shadow-lg">
-                <Image src="/images/garden-hero.webp" alt="Garden in spring" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover" />
+                <Image src="https://picsum.photos/1600/900?random=1" alt="Garden in spring" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover" />
               </div>
             </div>
             <div className="grid md:grid-cols-3 gap-8">
@@ -201,6 +213,140 @@ export default function Home() {
                   horticultural experts who ensure every detail is perfected.
                 </p>
               </div>
+            </div>
+          </div>
+        
+        </section>
+
+        <section id="testimonials" className="py-24 px-6 bg-white">
+          <div className="max-w-7xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-4xl md:text-5xl font-bold text-[#1B3022] mb-4">
+                What Clients Say
+              </h2>
+              <p className="text-xl text-[#1B3022]/80 max-w-2xl mx-auto">
+                A few words from homeowners who wanted a garden that feels
+                effortless to live with.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-8">
+              <div className="rounded-2xl border border-[#1B3022]/10 p-8 shadow-sm hover:shadow-lg transition-shadow">
+                <div className="text-5xl leading-none text-[#1B3022]/20 mb-4">“</div>
+                <p className="text-[#1B3022]/80 text-lg leading-relaxed mb-6">
+                  The team transformed a tired patch of grass into a clean, modern
+                  space we actually use. Everything was tidy, on time, and exactly
+                  as promised.
+                </p>
+                <div className="pt-6 border-t border-[#1B3022]/10">
+                  <p className="font-semibold text-[#1B3022]">Sophie R.</p>
+                  <p className="text-sm text-[#1B3022]/70">Hove • Full garden refresh</p>
+                </div>
+              </div>
+
+              <div className="rounded-2xl border border-[#1B3022]/10 p-8 shadow-sm hover:shadow-lg transition-shadow">
+                <div className="text-5xl leading-none text-[#1B3022]/20 mb-4">“</div>
+                <p className="text-[#1B3022]/80 text-lg leading-relaxed mb-6">
+                  We wanted low-maintenance without it looking “plain”. The design
+                  choices were spot on and the finish is premium. Neighbours keep
+                  asking who did it.
+                </p>
+                <div className="pt-6 border-t border-[#1B3022]/10">
+                  <p className="font-semibold text-[#1B3022]">James L.</p>
+                  <p className="text-sm text-[#1B3022]/70">Brighton • Design + planting</p>
+                </div>
+              </div>
+
+              <div className="rounded-2xl border border-[#1B3022]/10 p-8 shadow-sm hover:shadow-lg transition-shadow">
+                <div className="text-5xl leading-none text-[#1B3022]/20 mb-4">“</div>
+                <p className="text-[#1B3022]/80 text-lg leading-relaxed mb-6">
+                  Great communication and the maintenance plan is a game changer.
+                  The garden stays sharp all year and we don’t have to think about it.
+                </p>
+                <div className="pt-6 border-t border-[#1B3022]/10">
+                  <p className="font-semibold text-[#1B3022]">Amira K.</p>
+                  <p className="text-sm text-[#1B3022]/70">Shoreham • Ongoing maintenance</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="faq" className="py-24 px-6 bg-[#E6D5B8]">
+          <div className="max-w-5xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-4xl md:text-5xl font-bold text-[#1B3022] mb-4">
+                FAQs
+              </h2>
+              <p className="text-xl text-[#1B3022]/80">
+                Quick answers to the questions we get asked most.
+              </p>
+            </div>
+
+            <div className="space-y-4">
+              <details className="group rounded-2xl bg-white/80 border border-[#1B3022]/10 p-6 shadow-sm">
+                <summary className="cursor-pointer list-none flex items-center justify-between gap-4">
+                  <span className="text-lg font-semibold text-[#1B3022]">
+                    How quickly can you start?
+                  </span>
+                  <span className="text-[#1B3022]/70 group-open:rotate-45 transition-transform text-2xl leading-none">+</span>
+                </summary>
+                <p className="mt-4 text-[#1B3022]/80 leading-relaxed">
+                  For small jobs we can often start within 1–2 weeks. Larger design-and-build
+                  projects usually book 3–6 weeks ahead depending on the season.
+                </p>
+              </details>
+
+              <details className="group rounded-2xl bg-white/80 border border-[#1B3022]/10 p-6 shadow-sm">
+                <summary className="cursor-pointer list-none flex items-center justify-between gap-4">
+                  <span className="text-lg font-semibold text-[#1B3022]">
+                    Do you offer free quotes?
+                  </span>
+                  <span className="text-[#1B3022]/70 group-open:rotate-45 transition-transform text-2xl leading-none">+</span>
+                </summary>
+                <p className="mt-4 text-[#1B3022]/80 leading-relaxed">
+                  Yes — we’ll arrange a quick site visit (or video call) and send a clear quote
+                  with scope, timelines, and options.
+                </p>
+              </details>
+
+              <details className="group rounded-2xl bg-white/80 border border-[#1B3022]/10 p-6 shadow-sm">
+                <summary className="cursor-pointer list-none flex items-center justify-between gap-4">
+                  <span className="text-lg font-semibold text-[#1B3022]">
+                    Can you design for low maintenance?
+                  </span>
+                  <span className="text-[#1B3022]/70 group-open:rotate-45 transition-transform text-2xl leading-none">+</span>
+                </summary>
+                <p className="mt-4 text-[#1B3022]/80 leading-relaxed">
+                  Absolutely. We can recommend planting, borders, surfaces, and irrigation choices
+                  that look great with minimal upkeep.
+                </p>
+              </details>
+
+              <details className="group rounded-2xl bg-white/80 border border-[#1B3022]/10 p-6 shadow-sm">
+                <summary className="cursor-pointer list-none flex items-center justify-between gap-4">
+                  <span className="text-lg font-semibold text-[#1B3022]">
+                    What areas do you cover?
+                  </span>
+                  <span className="text-[#1B3022]/70 group-open:rotate-45 transition-transform text-2xl leading-none">+</span>
+                </summary>
+                <p className="mt-4 text-[#1B3022]/80 leading-relaxed">
+                  We cover Brighton &amp; Hove and nearby areas. If you’re just outside, message us —
+                  we’re flexible for the right project.
+                </p>
+              </details>
+
+              <details className="group rounded-2xl bg-white/80 border border-[#1B3022]/10 p-6 shadow-sm">
+                <summary className="cursor-pointer list-none flex items-center justify-between gap-4">
+                  <span className="text-lg font-semibold text-[#1B3022]">
+                    Are you insured?
+                  </span>
+                  <span className="text-[#1B3022]/70 group-open:rotate-45 transition-transform text-2xl leading-none">+</span>
+                </summary>
+                <p className="mt-4 text-[#1B3022]/80 leading-relaxed">
+                  Yes — we’re fully insured and always work with safety and tidy handovers in mind.
+                </p>
+              </details>
             </div>
           </div>
         </section>
