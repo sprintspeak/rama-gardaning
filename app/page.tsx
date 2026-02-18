@@ -71,7 +71,7 @@ export default function Home() {
         <section className="relative min-h-screen flex items-center justify-center text-[#E6D5B8]">
           <div className="absolute inset-0">
             <Image
-              src="https://picsum.photos/1600/900?random=1"
+              src="https://res.cloudinary.com/dtzoirmlg/image/upload/v1771447664/pexels-tdcat-59321_wivsj2.jpg"
               alt="Well maintained garden"
               fill
               priority
@@ -121,13 +121,13 @@ export default function Home() {
             </div>
             <div className="grid md:grid-cols-3 gap-6 mb-12">
               <div className="relative h-56 rounded-2xl overflow-hidden shadow-lg">
-                <Image src="https://picsum.photos/800/600?random=2" alt="Formal garden design" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover" />
+                <Image src="https://res.cloudinary.com/dtzoirmlg/image/upload/v1771447662/pexels-creative-vix-7294_yps7yt.jpg" alt="Formal garden design" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover" />
               </div>
               <div className="relative h-56 rounded-2xl overflow-hidden shadow-lg">
-                <Image src="https://picsum.photos/800/600?random=3" alt="Manicured hedges and lawn" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover" />
+                <Image src="https://res.cloudinary.com/dtzoirmlg/image/upload/v1771447662/pexels-pixabay-158028_qqkmqs.jpg" alt="Manicured hedges and lawn" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover" />
               </div>
               <div className="relative h-56 rounded-2xl overflow-hidden shadow-lg">
-                <Image src="https://picsum.photos/1600/900?random=1" alt="Garden in spring" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover" />
+                <Image src="https://res.cloudinary.com/dtzoirmlg/image/upload/v1771447663/pexels-icon0-130154_dazalx.jpg" alt="Garden path and planting" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover" />
               </div>
             </div>
             <div className="grid md:grid-cols-3 gap-8">
